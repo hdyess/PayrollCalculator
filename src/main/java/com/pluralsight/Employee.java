@@ -57,5 +57,10 @@ public class Employee {
         Employee.payRate = payRate;
     }
 
+    //special stuff idk
+    public static double getGrossPay() {
+        return hoursWorked * payRate;
+    }
+
 
 }
